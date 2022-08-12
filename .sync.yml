@@ -3,6 +3,7 @@ Gemfile:
   optional:
     ':test':
       - gem: 'fakefs'
+      - gem: 'net-ftp' # Does not come with ruby package on Fedora
       - gem: 'zabbixapi'
 spec/spec_helper.rb:
   mock_with: ':mocha'
